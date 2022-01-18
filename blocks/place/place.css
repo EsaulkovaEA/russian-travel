@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2.5rem;
   row-gap: 3rem;
-  margin: 5rem auto 0;
+  margin: 0 auto;
 }
 @media (max-width: 1024px) {
   .place {
@@ -13,13 +13,15 @@
 @media (max-width: 768px) {
   .place {
     column-gap: 1.75rem;
-    margin: 73px auto 0;
+  }
+}
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 320px) {
   .place {
     gap: 2rem;
-    grid-template-columns: 1fr;
-    margin: 64px auto 0;
   }
 }

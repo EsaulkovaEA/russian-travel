@@ -2,20 +2,27 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 28px auto 0;
+  margin: 0 auto;
+  padding: 28px 0 56px;
+}
+@media (max-width: 1280px) {
+  .header {
+    max-width: 92.5%;
+  }
 }
 @media (max-width: 1024px) {
   .header {
-    max-width: 928px;
+    max-width: 91%;
+    padding-bottom: 48px;
   }
 }
 @media (max-width: 768px) {
   .header {
-    max-width: 720px;
+    max-width: 94%;
   }
 }
 @media (max-width: 320px) {
   .header {
-    max-width: 288px;
+    max-width: 90%;
   }
 }
