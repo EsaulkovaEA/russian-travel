@@ -24,5 +24,6 @@
 @media (max-width: 320px) {
   .header {
     max-width: 90%;
+    padding-top: 16px;
   }
 }
